@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="corpo" class="p-5">
+    <nav class="container">
+        <div>
+            <h1 class="text-center display-4 fs-2 text-white pb-3">
+                <i>
+                    Verificador de idade
+                </i>
+            </h1>
+        </div>
+        <section class="bg-white rounded p-5">
+            <h1 class="display-4 fs-5">
+                <i>
+                    Ano de nascimento
+                </i>
+                <input type="number" name="anoNS" id="anoNS" class="form-control" placeholder="Seu ano de nascimento">
+            </h1>
+            <h1 class="display-4 fs-5">
+                <i>
+                    Qual o seu gênero?
+                </i>
+            </h1>
+            <div class="display-4 fs-5">
+                <label>
+                    <input type="radio" name="genero" id="mas" value="mas" checked> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="genero" id="fem" value="fem"> Feminino
+                </label>
+            </div>
+            <div class="py-2">
+                <button onclick="verificar()">
+                    Verificar
+                </button>
+            </div>
+            <nav>
+                <div id="txt" class="text-center">
+                    Preencha os dados para ver o resultado
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="" class="w-25" id="foto">
+                </div>
+            </nav>
+        </section>
+        <p class="text-center text-white display-4 fs-5 pt-3">
+            <i>
+                &copy;Exercícios Vinicius Cesar
+            </i>
+        </p>
+    </nav>
+    <script src="script.js">
+
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

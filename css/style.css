@@ -1,0 +1,22 @@
+#corpo{
+    background-color: rgb(167, 113, 236);
+}
+
+button{
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 300px;
+    color: rgb(167, 113, 236);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(167, 113, 236);;
+    transition: 0.3s;
+    color: white;
+}
+
+.fts{
+    border-radius: 100%;
+}
